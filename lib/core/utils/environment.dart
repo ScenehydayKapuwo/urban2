@@ -14,13 +14,13 @@ class AppConfig {
 
     switch (env) {
       case Environment.development:
-        baseUrl = 'http://10.222.176.20:5000';
+        baseUrl = 'https://2scenehyday.pythonanywhere.com';
         break;
       case Environment.staging:
-        baseUrl = 'https://staging.your-api.com';
+        baseUrl = 'https://2scenehyday.pythonanywhere.com';
         break;
       case Environment.production:
-        baseUrl = 'https://api.your-app.com';
+        baseUrl = 'https://2scenehyday.pythonanywhere.com';
         break;
     }
   }
