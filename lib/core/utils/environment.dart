@@ -19,6 +19,7 @@ class AppConfig {
       case Environment.staging:
         baseUrl = 'https://2scenehyday.pythonanywhere.com';
         break;
+
       case Environment.production:
         baseUrl = 'https://2scenehyday.pythonanywhere.com';
         break;
